@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo+github搭建个人博客]]></title>
     <url>%2F2019%2F01%2F04%2Fhexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[01.序作为一个从事汽车后市场行业，平常写写代码的苦逼单片机工程师。 在此之前没有听过hexo，也不怎么用github（英文不及格π_π，这个借口我都听不下去）。 在看了一个平常关注的公众号中一篇关于介绍部署个人博客的文章后瞬间来了兴致。 花了1~2天按照网上的教程弄了一个自己的博客，虽然全程按照教程来操作， 但还是很开心有了一个自己掌管的博客网站 [我的博客](www.ranxblog.cn) 02.流程说明hexo+github搭建参考 1.安装使用hexo：基于Node.js的一个静态博客框架 git：开源的分布式版本控制系统 github：面向开源及私有软件项目的托管平台 通过markdown语法编写文章，使用hexo生成静态的网页，通过git发布到github或者码云，通过github或码云生成的链接供别人阅读 2.主题修改绑定域名：域名绑定链接后通过域名更方便 主题替换：博客主题很多都使用next，界面渲染更好看些 hexo-next主题配置 3.发布提交本地创建xx.md文章 提交文章： hexo clean //清除 hexo g(generate)//生成静态页面 hexo d(deply)//发布到//github 本地测试： hexo clean //清除 hexo g(generate)//生成静态页面 hexo s(server)//本地测试 end]]></content>
+    <content type="text"><![CDATA[[TOC] 01.序 作为一个从事汽车后市场行业，平常写写代码的苦逼单片机工程师。 在此之前没有听过hexo，也不怎么用github（英文不及格π_π，这个借口我都听不下去）。 在看了一个平常关注的公众号中一篇关于介绍部署个人博客的文章后瞬间来了兴致。 花了1~2天按照网上的教程弄了一个自己的博客，虽然全程按照教程来操作， 但还是很开心有了一个自己掌管的博客网站 我的博客 02.流程说明hexo+github搭建参考 1.安装使用hexo：基于Node.js的一个静态博客框架 git：开源的分布式版本控制系统 github：面向开源及私有软件项目的托管平台 通过markdown语法编写文章，使用hexo生成静态的网页，通过git发布到github或者码云，通过github或码云生成的链接供别人阅读 2.主题修改绑定域名：域名绑定链接后通过域名更方便 主题替换：博客主题很多都使用next，界面渲染更好看些 hexo-next主题配置 3.发布提交本地创建xx.md文章 提交文章： hexo clean //清除 hexo g(generate)//生成静态页面 hexo d(deply)//发布到//github 本地测试： hexo clean //清除 hexo g(generate)//生成静态页面 hexo s(server)//本地测试 end]]></content>
       <categories>
         <category>hexo+github</category>
       </categories>
