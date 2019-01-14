@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[STM32资料获取方式]]></title>
+    <url>%2F2019%2F01%2F14%2FSTM32%E8%B5%84%E6%96%99%E8%8E%B7%E5%8F%96%E6%96%B9%E5%BC%8F%2F</url>
+    <content type="text"><![CDATA[[TOC] 简述ST各大资料获取方式 1.STM32开发所需要的基本技术手册1.开发所需要的基本技术手册 DATASHEET【数据手册】 Reference Manual【芯片参考手册或寄存器参考手册】 Errate sheet【芯片勘误表】 Flash programming manual【FLASH编程手册】 数据手册告诉你芯片内有什么，具体的特性参数是多少参考手册告诉你芯片内部框架特征、各模块功能的实现过程和相关寄存器的描述勘误手册是每家芯片厂商针对各自芯片对外发布的关于芯片使用中需要注意的地方Flash编程手册是针对需要对芯片内部Flash编程的技术手册 使用最多的就是芯片参考手册 2.开发相关的应用笔记一些应用笔记，比如ADC应用、RTC应用、UART IAP应用、TIMEER应用等等 3.基于STM32的嵌入式软件开发包标准库或者Cube HAL库 LL库 2.ST MCU官方网站 ST中文网站 ST官网平常需要的资料 Cube 手册 等等都是从网站获取 3.几个与STMCU有关的论坛社区 与非网STMCU论坛 21IC论坛 正点原子论坛 安富莱电子论坛 野火电子论坛 4.ST官方微信公众号5.其他用处不多的资料1.ST MCU选型工具ST MCU选型App 2.优酷视频库STM32优酷视频资料好像视频更新的频率不高 3.ST技术支持邮箱mcu.china@st.com 提供ST MCU产品及应用相关信息咨询与交流 手机有关ST MCU方面的用户反馈 4.官方STM32硬件开发工具ST官方配套的硬件开发版同样在官网获取]]></content>
+      <categories>
+        <category>STM32</category>
+      </categories>
+      <tags>
+        <tag>资料</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[参考链接]]></title>
     <url>%2F2019%2F01%2F08%2F%E5%8F%82%E8%80%83%E9%93%BE%E6%8E%A5%2F</url>
     <content type="text"><![CDATA[参考链接:http://blog.csdn.net/ybhuangfugui/article/details/51760171 UCOS系统:https://www.micrium.com/download/micrium_stm32f107_ucos-ii/ STM32标准库:http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software.html?querycriteria=productId=SC961MDK开发环境:]]></content>
