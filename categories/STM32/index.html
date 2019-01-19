@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 
 <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 
@@ -95,16 +95,16 @@
 
 
 
-<meta name="description" content="有咸鱼的梦想">
+<meta name="description" content="激流而上">
 <meta property="og:type" content="website">
 <meta property="og:title" content="徐的博客">
 <meta property="og:url" content="http://yoursite.com/categories/STM32/index.html">
 <meta property="og:site_name" content="徐的博客">
-<meta property="og:description" content="有咸鱼的梦想">
+<meta property="og:description" content="激流而上">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="徐的博客">
-<meta name="twitter:description" content="有咸鱼的梦想">
+<meta name="twitter:description" content="激流而上">
 
 
 
@@ -112,7 +112,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     version: '',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -248,9 +248,9 @@
         <li class="menu-item menu-item-resources">
           <a href="/resources" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-resources"></i> <br>
+              <i class="menu-item-icon fa fa-fw fa-heart"></i> <br>
             
-            资源查询
+            查询
           </a>
         </li>
       
@@ -375,7 +375,7 @@
   <aside id="sidebar" class="sidebar">
     
     <div class="sidebar-inner">
-
+	
       
 
       
@@ -384,10 +384,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Jian Xu">
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Mr.Xu">
             
-              <p class="site-author-name" itemprop="name">Jian Xu</p>
-              <p class="site-description motion-element" itemprop="description">有咸鱼的梦想</p>
+              <p class="site-author-name" itemprop="name">Mr.Xu</p>
+              <p class="site-description motion-element" itemprop="description">激流而上</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -458,23 +458,7 @@
                   </li>
                 
                   <li class="links-of-blogroll-item">
-                    <a href="http://www.openedv.com/" title="开源电子网" target="_blank">开源电子网</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://www.firebbs.cn" title="野火电子论坛" target="_blank">野火电子论坛</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
                     <a href="http://www.stmcu.org.cn/" title="ST社区" target="_blank">ST社区</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://www.stmcu.com.cn/" title="STM32中文网" target="_blank">STM32中文网</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://www.st.com/" title="STM32官网" target="_blank">STM32官网</a>
                   </li>
                 
               </ul>
@@ -489,7 +473,8 @@
       
 
       
-
+	<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="110" src="//music.163.com/outchain/player?type=0&id=2498061427&auto=1&height=90">
+	</iframe>
     </div>
   </aside>
 
@@ -504,7 +489,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">(*￣︶￣)Jian Xu</span>
+  <span class="author" itemprop="copyrightHolder">(*￣︶￣)Mr.Xu</span>
 
   
 </div>
@@ -522,6 +507,25 @@
 
 
 
+
+<!-- 在网页底部添加网站运行时间 -->
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("01/1/2019 00:00:00");//此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "Run for "+dnum+" Days ";
+        document.getElementById("times").innerHTML = hnum + " Hours " + mnum + " m " + snum + " s";
+    }
+setInterval("createtime()",250);
+</script>
 
         
 
@@ -624,13 +628,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v="></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v="></script>
-
-
 
   
 
